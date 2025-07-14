@@ -1,0 +1,11 @@
+# Definisikan variabel number sebagai string
+number = "123456789"
+
+# A. Menampilkan data terakhir
+print("A. Data terakhir:", number[-1])
+
+# B. Menampilkan data pertama
+print("B. Data pertama:", number[0])
+
+# C. Menampilkan data ke-3 sampai ke-6
+print ("c. data ke-3 sampai ke-6 :", number [ 2:6 ] )
