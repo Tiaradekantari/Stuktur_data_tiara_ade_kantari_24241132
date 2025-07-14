@@ -1,0 +1,13 @@
+# Input dari pengguna
+domain = input("Masukkan nama domain anda (contoh: as.net): ")
+
+# Cek apakah format input mengandung titik
+if '.' in domain:
+    # Memisahkan string berdasarkan tanda titik
+    nama, ekstensi = domain.split('.')
+
+    # Menampilkan hasil
+    print("Nama domain anda :", nama)
+    print("Domain yang anda gunakan :", ekstensi)
+else:
+    print("nama domain anda: nama.ekstensi (contoh: as.net)")
